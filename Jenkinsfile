@@ -8,6 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
+                sh 'echo "hello from inside of build stage"'
             }
         }
     }
